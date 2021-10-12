@@ -61,10 +61,10 @@ let skills = [
   { name: "JAVASCRIPT", icon: "bx bxl-javascript" },
   { name: "JQUERY", icon: "bx bxl-jquery" },
   { name: "REACT JS", icon: "bx bxl-react" },
-  { name: "REDUX ", icon: "bx bxl-redux" },
+  { name: "REDUX & Next JS ", icon: "bx bxl-redux" },
   { name: "SASS", icon: "bx bxl-sass" },
   { name: "BOOTSTRAP", icon: "bx bxl-bootstrap" },
-  // { name: "JSON & AJAX & AXIOS", icon: "bx bxs-file-json" },
+  { name: "JSON & AJAX & AXIOS", icon: "bx bxs-file-json" },
   { name: "GIT & GITHUB", icon: "bx bxl-github" },
   
 ];
