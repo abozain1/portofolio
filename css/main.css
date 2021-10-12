@@ -276,7 +276,11 @@ header .list-links li a:hover::after {
 }
 
 .home-img {
-  width: 40%;
+  height: 70vh;
+  width:30vw;
+    background-image: url("../images/Ahmed.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
   
 }
 
@@ -293,6 +297,12 @@ header .list-links li a:hover::after {
   .home-img {
     margin-top: 20px;
     text-align: center;
+    height: 60vh;
+    
+    background-image: url("../images/Ahmed.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    
   }
 }
 
