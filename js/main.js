@@ -89,21 +89,36 @@ displaySkills();
 // DISPLAY PORTFOLIO PROJECTS
 let projects = [
   {
-    name: "Admin app",
+    name: "OMN(ui)",
+    img: "images/OMN.png",
+    link: "https://omn-alpha.netlify.app/",
+  },
+  {
+    name: "Architect(ui)",
+    img: "images/Architect.png",
+    link: "https://architect-alpha.netlify.app/",
+  },
+  {
+    name: "Admin app(React)",
     img: "images/Admin.png",
-    link: "https://admin-profile-f1e4d.web.app/home",
+    link: "https://admino.netlify.app/home",
   },
   {
-    name: "Library",
-    img: "images/Library.png",
-    link: "https://test-a0133.web.app/home",
-  },
-  {
-    name: "Diagram",
+    name: "Diagram(React)",
     img: "images/Diagram.png",
-    link: "https://diagram-18840.web.app/",
+    link: "https://diagramo.netlify.app/",
   },
-
+  {
+    name: "Store(React)",
+    img: "images/Store.png",
+    link: "https://speedstore.netlify.app/",
+  },
+  
+  {
+    name: "Library(React)",
+    img: "images/Library.png",
+    link: "https://library-alpha.netlify.app/",
+  },
 ];
 
 let projectsContentDOM = document.querySelector(".portfolio-content");
