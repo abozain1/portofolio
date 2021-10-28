@@ -69,6 +69,7 @@ let skills = [
   
 ];
 
+
 let skillsContentDOM = document.querySelector(".skills-content");
 
 const displaySkills = () => {
@@ -144,6 +145,48 @@ const displayProjects = () => {
 };
 
 displayProjects();
+let cert = [
+  {
+    name: "HackerRank",
+    img: "images/HackerRank.png",
+    link: " https://www.hackerrank.com/certificates/6103bafeffe1",
+  },
+  {
+    name: "TESTDOME",
+    img: "images/TESTDOME.png",
+    link: "https://app.testdome.com/cert/3e56756e45774d3188ca7785fb35ddf8 ",
+  },
+  {
+    name: "egfwd",
+    img: "images/egfwd.png",
+    link: "https://drive.google.com/file/d/1ABJOWLe7S7WuUQmwo_MJwr-v2zVwQgP_/view?usp=sharing ",
+  },
+  
+];
+
+let certContentDOM = document.querySelector(".cert-content");
+
+const displaycert = () => {
+  const display = cert.map((project) => {
+    return `
+            <div class="project-box">
+              <div class="project-image">
+                <img src="${project.img}" alt="project-image" />
+                <div class="project-overlay">
+                  <div class="project-details">
+                    <a href="${project.link}" class="button" target="_blank"> preview </a>
+                    <p>${project.name}</p>
+                  </div>
+                </div>
+              </div>
+          </div>
+      `;
+  });
+
+  certContentDOM.innerHTML = display.join("");
+};
+
+displaycert();
 
 // SCROLL REVEAL ANIMATION
 const sr = ScrollReveal({

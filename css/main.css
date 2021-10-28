@@ -343,6 +343,11 @@ header .list-links li a:hover::after {
   grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
   gap: 20px;
 }
+.cert-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  gap: 20px;
+}
 
 .project-box {
   
@@ -353,6 +358,9 @@ header .list-links li a:hover::after {
 
 @media (max-width: 500px) {
   .portfolio-content {
+    grid-template-columns: 1fr;
+  }
+  .cert-content {
     grid-template-columns: 1fr;
   }
 }
