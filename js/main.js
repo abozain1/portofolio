@@ -191,7 +191,7 @@ displaycert();
 // SCROLL REVEAL ANIMATION
 const sr = ScrollReveal({
   origin: "top",
-  distance: "80px",
+  distance: "100px",
   duration: 2000,
   // reset: true,
 });
@@ -206,3 +206,4 @@ sr.reveal(".skills", {});
 
 // PORTFOLIO SCROLL REVEAL
 sr.reveal(".portfolio", {interval: 2000 });
+sr.reveal(".cert", {interval: 2000 });
