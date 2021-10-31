@@ -279,7 +279,7 @@ header .list-links li a:hover::after {
   height: 70vh;
   width:30vw;
     background-image: url("../images/Ahmed.jpg");
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
   
 }
