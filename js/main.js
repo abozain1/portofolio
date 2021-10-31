@@ -205,5 +205,5 @@ sr.reveal(".home-img", { delay: 300 });
 sr.reveal(".skills", {origin:'left'});
 
 // PORTFOLIO SCROLL REVEAL
-sr.reveal(".portfolio", {interval: 2000 });
-sr.reveal(".cert", {interval: 2000 });
+sr.reveal(".portfolio", { });
+sr.reveal(".cert", {delay: 2000 });
