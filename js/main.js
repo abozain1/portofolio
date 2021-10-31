@@ -195,6 +195,12 @@ const sr = ScrollReveal({
   duration: 2000,
   // reset: true,
 });
+const sl = ScrollReveal({
+  origin: "left",
+  distance: "100px",
+  duration: 2000,
+  // reset: true,
+});
 
 // HOME SCROLL REVEAL
 sr.reveal(".home-desc", {});
@@ -202,7 +208,7 @@ sr.reveal(".home-social li", { interval: 200 });
 sr.reveal(".home-img", { delay: 300 });
 
 // SKILLS SCROLL REVEAL
-sr.reveal(".skills", {});
+sl.reveal(".skills", {});
 
 // PORTFOLIO SCROLL REVEAL
 sr.reveal(".portfolio", {interval: 2000 });
