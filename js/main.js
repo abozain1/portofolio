@@ -56,16 +56,17 @@ if (dark_on) {
 
 // DISPLAY SKILLS
 let skills = [
-  { name: "HTML", icon: "bx bxl-html5" },
-  { name: "CSS", icon: "bx bxl-css3" },
-  { name: "JAVASCRIPT", icon: "bx bxl-javascript" },
-  { name: "JQUERY", icon: "bx bxl-jquery" },
-  { name: "REACT JS", icon: "bx bxl-react" },
-  { name: "REDUX & Next JS ", icon: "bx bxl-redux" },
-  { name: "SASS", icon: "bx bxl-sass" },
-  { name: "BOOTSTRAP", icon: "bx bxl-bootstrap" },
-  { name: "JSON & AJAX & AXIOS", icon: "bx bxs-file-json" },
-  { name: "GIT & GITHUB", icon: "bx bxl-github" },
+  { name: "HTML", icon: "vscode-icons:file-type-html" },
+  { name: "CSS", icon: "vscode-icons:file-type-css" },
+  { name: "JAVASCRIPT", icon: "logos:javascript" },
+  { name: "TYPESCRIPT", icon: "logos:typescript-icon" },
+  { name: "JQUERY", icon: "mdi:jquery" },
+  { name: "REACT JS", icon: "logos:react" },
+  { name: "REDUX & Next JS ", icon: "cib:next-js" },
+  { name: "SASS", icon: "logos:sass" },
+  { name: "BOOTSTRAP", icon: "logos:bootstrap" },
+  { name: "JSON & AJAX & AXIOS", icon: "bx:bxs-file-json" },
+  { name: "GIT & GITHUB", icon: "akar-icons:github-fill" },
   
 ];
 
@@ -74,12 +75,15 @@ let skillsContentDOM = document.querySelector(".skills-content");
 
 const displaySkills = () => {
   const display = skills.map((skill) => {
-    return `
-      <div class="skills-box line-swaping">
-        <i class="${skill.icon}"></i>
-        <span>${skill.name}</span>
-      </div>
-      `;
+   
+
+      return `
+        <div class="skills-box line-swaping">
+        <span class="iconify" data-icon="${skill.icon}" data-width="30"></span>
+          <span>${skill.name}</span>
+        </div>
+        `;
+    
   });
 
   skillsContentDOM.innerHTML = display.join("");
@@ -202,7 +206,7 @@ sr.reveal(".home-social li", { interval: 200 });
 sr.reveal(".home-img", { delay: 300 });
 
 // SKILLS SCROLL REVEAL
-sr.reveal(".skills", {origin :'left'});
+sr.reveal(".skills", {});
 
 // PORTFOLIO SCROLL REVEAL
 sr.reveal(".portfolio", {interval: 2000 });

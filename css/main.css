@@ -86,7 +86,9 @@ header {
   background-color: var(--light-color);
   width: 100%;
 }
-
+.iconify{
+  margin-right: 1vw;
+}
 header .header-content {
   display: flex;
   justify-content: space-between;
