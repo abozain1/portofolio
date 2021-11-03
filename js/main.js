@@ -203,7 +203,7 @@ const sr = ScrollReveal({
 // HOME SCROLL REVEAL
 sr.reveal(".home-desc", {});
 sr.reveal(".home-social li", { interval: 200 });
-sr.reveal(".home-img", { delay: 300 });
+// sr.reveal(".home-img", { delay: 300 });
 
 // SKILLS SCROLL REVEAL
 sr.reveal(".skills", {});
