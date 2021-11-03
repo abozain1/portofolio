@@ -195,7 +195,7 @@ displaycert();
 // SCROLL REVEAL ANIMATION
 const sr = ScrollReveal({
   origin: "top",
-  distance: "100px",
+  distance: "40px",
   duration: 2000,
   // reset: true,
 });
