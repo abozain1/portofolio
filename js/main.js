@@ -94,12 +94,12 @@ displaySkills();
 // DISPLAY PORTFOLIO PROJECTS
 let projects = [
   {
-    name: "OMN(ui)",
+    name: "OMN(JavaScript-uI)",
     img: "images/OMN.png",
     link: "https://omn-alpha.netlify.app/",
   },
   {
-    name: "Architect(ui)",
+    name: "Architect(JavaScript-uI)",
     img: "images/Architect.png",
     link: "https://architect-alpha.netlify.app/",
   },
@@ -112,6 +112,16 @@ let projects = [
     name: "Diagram(React)",
     img: "images/Diagram.png",
     link: "https://diagramo.netlify.app/",
+  },
+  {
+    name: "TODO(TypeScript)",
+    img: "images/TODO.png",
+    link: "https://todo-alpha.netlify.app/",
+  },
+  {
+    name: "Campaign(TypeScript-UI)",
+    img: "images/Campaign.png",
+    link: "https://campaign-alpha.netlify.app/",
   },
   {
     name: "Store(React)",
