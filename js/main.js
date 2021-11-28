@@ -161,17 +161,27 @@ const displayProjects = () => {
 displayProjects();
 let cert = [
   {
-    name: "HackerRank",
+    name: "REACT",
     img: "images/HackerRank.png",
-    link: " https://www.hackerrank.com/certificates/6103bafeffe1",
+    link: "https://www.hackerrank.com/certificates/6103bafeffe1",
   },
   {
-    name: "TESTDOME",
+    name: "PROBLEM SOLVING",
+    img: "images/problem-basic.png",
+    link: "https://www.hackerrank.com/certificates/685bc23afa5e",
+  },
+  {
+    name: "FrontEnd",
+    img: "images/udacity-pro.png",
+    link: "https://confirm.udacity.com/ZSFR6CZK",
+  },
+  {
+    name: "FrontEnd",
     img: "images/TESTDOME.png",
     link: "https://app.testdome.com/cert/3e56756e45774d3188ca7785fb35ddf8 ",
   },
   {
-    name: "egfwd",
+    name: "FrontEnd",
     img: "images/egfwd.png",
     link: "https://drive.google.com/file/d/1ABJOWLe7S7WuUQmwo_MJwr-v2zVwQgP_/view?usp=sharing ",
   },
