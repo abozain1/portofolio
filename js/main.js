@@ -60,14 +60,16 @@ let skills = [
   { name: "CSS", icon: "vscode-icons:file-type-css" },
   { name: "JAVASCRIPT", icon: "logos:javascript" },
   { name: "TYPESCRIPT", icon: "logos:typescript-icon" },
-  { name: "JQUERY", icon: "mdi:jquery" },
   { name: "REACT JS", icon: "logos:react" },
+  { name: "Node Js", icon: "vscode-icons:file-type-node" },
   { name: "REDUX & Next JS ", icon: "cib:next-js" },
+  { name: "MongoDb", icon: "simple-icons:mongodb" },
+  { name: "Express Js", icon: "simple-icons:express" },
   { name: "SASS", icon: "logos:sass" },
+  { name: "GIT & GITHUB", icon: "akar-icons:github-fill" },
+  { name: "JQUERY", icon: "mdi:jquery" },
   { name: "BOOTSTRAP", icon: "logos:bootstrap" },
   { name: "JSON & AJAX & AXIOS", icon: "bx:bxs-file-json" },
-  { name: "GIT & GITHUB", icon: "akar-icons:github-fill" },
-  
 ];
 
 
