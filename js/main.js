@@ -120,22 +120,22 @@ let projects = [
     img: "images/TODO.png",
     link: "https://todo-alpha.netlify.app/",
   },
-  {
-    name: "Campaign(TypeScript-UI)",
-    img: "images/Campaign.png",
-    link: "https://campaign-alpha.netlify.app/",
-  },
+  // {
+  //   name: "Campaign(TypeScript-UI)",
+  //   img: "images/Campaign.png",
+  //   link: "https://campaign-alpha.netlify.app/",
+  // },
   {
     name: "Store(React)",
     img: "images/Store.png",
     link: "https://speedstore.netlify.app/",
   },
   
-  {
-    name: "Library(React)",
-    img: "images/Library.png",
-    link: "https://library-alpha.netlify.app/",
-  },
+  // {
+  //   name: "Library(React)",
+  //   img: "images/Library.png",
+  //   link: "https://library-alpha.netlify.app/",
+  // },
 ];
 
 let projectsContentDOM = document.querySelector(".portfolio-content");
