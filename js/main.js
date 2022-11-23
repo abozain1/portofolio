@@ -60,7 +60,7 @@ let skills = [
   { name: "CSS", icon: "vscode-icons:file-type-css" },
   { name: "JAVASCRIPT", icon: "logos:javascript" },
   { name: "TYPESCRIPT", icon: "logos:typescript-icon" },
-  { name: "REACT JS", icon: "logos:react" },
+  { name: "REACT", icon: "logos:react" },
   { name: "Node Js", icon: "vscode-icons:file-type-node" },
   { name: "REDUX & Next JS ", icon: "cib:next-js" },
   { name: "MongoDb", icon: "simple-icons:mongodb" },
