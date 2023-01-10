@@ -457,10 +457,17 @@ a {
   color: var(--second-color);
 }
 
-ul {
+ .home-social{
   list-style: none;
+ }
+.expUl{
+  margin-top: 1rem;
+  color: rgb(86, 79, 79);
+  margin-left: 1rem;
 }
-
+.expUl li{
+  margin-top: 10px;
+}
 img {
   max-width: 100%;
 }
@@ -556,4 +563,26 @@ img {
 .line-swaping:hover::before {
   width: 50%;
   height: 3px;
+}
+.flex{
+  display: flex;
+}
+.contain{
+margin: 4rem 0;
+padding: 1rem;
+gap: 1rem;
+
+}
+.title{
+  font-size: 1rem;
+  font-weight: 600;
+
+}
+.date{
+  color: gray;
+
+}
+.company{
+  color: rgb(255,191,0);
+  font-weight: 600;
 }

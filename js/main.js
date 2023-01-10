@@ -72,20 +72,16 @@ let skills = [
   { name: "JSON & AJAX & AXIOS", icon: "bx:bxs-file-json" },
 ];
 
-
 let skillsContentDOM = document.querySelector(".skills-content");
 
 const displaySkills = () => {
   const display = skills.map((skill) => {
-   
-
-      return `
+    return `
         <div class="skills-box line-swaping">
         <span class="iconify" data-icon="${skill.icon}" data-width="30"></span>
           <span>${skill.name}</span>
         </div>
         `;
-    
   });
 
   skillsContentDOM.innerHTML = display.join("");
@@ -93,6 +89,102 @@ const displaySkills = () => {
 
 displaySkills();
 
+// display experience
+let experience = [
+  {
+    image: "images/anspire.jpeg",
+    title: "Senior FrontEnd Developer",
+    from: "Nov 2022",
+    to: "Present",
+    companyColor: "black",
+    company: "anspire",
+    powerPoints: [],
+  },
+  {
+    image: "images/lun.jpeg",
+    title: "Senior FrontEnd Developer",
+    from: "Sep 2022",
+    to: "Nov 2022",
+    companyColor: "#159CA0",
+    company: "lun-studio",
+    powerPoints: [
+      "Developed Shogol Web-App",
+      "Created a real-time chat with firebase",
+      "Dealt with Php",
+    ],
+  },
+  {
+    image: "images/seen.jpeg",
+    title: "FrontEnd Developer",
+    from: "Aug 2021",
+    to: "Sep 2022",
+    companyColor: "#6579FA",
+    company: "SEEN",
+    powerPoints: [
+      "Developed BuzzBot Mobile App",
+      "Dealt with Sentry, MixPanel and FireBase ",
+      "Dealt with TypeScript",
+      "Dealt with Odoo",
+    ],
+  },
+  {
+    image: "images/owlTech.gif",
+    title: "FrontEnd Developer",
+    from: "Oct 2020",
+    to: "Aug 2021",
+    company: "OwlTech",
+    companyColor: "#FBC005",
+    powerPoints: [
+      "Developed the company`s web-app",
+      "Developed the company`s mobile app",
+      "Dealt with Asp.Net",
+    ],
+  },
+  {
+    image: "images/upWork.jpeg",
+    title: "FrontEnd Developer",
+    from: "Mar 2020",
+    to: "Oct 2020",
+    company: "Freelance",
+    companyColor: "#15A800",
+    powerPoints: [
+      "fixing bugs ",
+      " updating UI/UX",
+      "integrating new features",
+      "refactoring code to enhance performance",
+    ],
+  },
+];
+let expContentDOM = document.querySelector(".exp-content");
+
+const displayExp = () => {
+  const display = experience.map((exp) => {
+    return `
+     
+        <div class='flex contain'> 
+        <img width='60rem' height='60rem' src='${exp.image}'/>
+        <div class=''>
+        <p class='title'>${exp.title}</p>
+        <p style='color:${exp.companyColor};' class='company'> ${
+      exp.company
+    }</p>
+        <div class='flex date'>
+        <p >${exp.from} - </p>
+        <p> ${exp.to}</p>
+        </div>  
+        <ul class='expUl'>
+      ${exp.powerPoints.map((ele) => `<li>${ele}</li>`).join("")}
+      </ul>  
+        </div>
+        </div>
+      
+        `;
+  });
+
+  expContentDOM.innerHTML = display.join("");
+};
+
+displayExp();
 // DISPLAY PORTFOLIO PROJECTS
 let projects = [
   {
@@ -130,7 +222,7 @@ let projects = [
     img: "images/Store.png",
     link: "https://speedstore.netlify.app/",
   },
-  
+
   // {
   //   name: "Library(React)",
   //   img: "images/Library.png",
@@ -187,7 +279,6 @@ let cert = [
     img: "images/egfwd.png",
     link: "https://drive.google.com/file/d/1ABJOWLe7S7WuUQmwo_MJwr-v2zVwQgP_/view?usp=sharing ",
   },
-  
 ];
 
 let certContentDOM = document.querySelector(".cert-content");
@@ -228,11 +319,9 @@ sr.reveal(".home-social li", { interval: 200 });
 sr.reveal(".home-img", { delay: 300 });
 
 // SKILLS SCROLL REVEAL
-sr.reveal(".skills", {origin:'left'});
+sr.reveal(".skills", { origin: "left" });
+sr.reveal("#exp", { origin: "left" });
 
 // PORTFOLIO SCROLL REVEAL
 sr.reveal(".portfolio", {});
 sr.reveal(".cert", {});
-
-
-
