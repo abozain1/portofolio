@@ -92,19 +92,35 @@ displaySkills();
 // display experience
 let experience = [
   {
+    image: "images/Reach.jpeg",
+    title: "FrontEnd Developer",
+    from: "Dec 2021",
+    to: "Nov 2022",
+    companyColor: "#0071BD",
+    company: "Reach Link",
+    powerPoints: [
+      "Developing Reach Link web-app",
+      "Developing Reach Link admin panel",
+    ],
+  },
+  {
     image: "images/anspire.jpeg",
-    title: "Senior FrontEnd Developer",
-    from: "Nov 2022",
-    to: "Present",
+    title: "FrontEnd Developer",
+    from: "Dec 2021",
+    to: "Nov 2022",
     companyColor: "black",
     company: "anspire",
-    powerPoints: [],
+    powerPoints: [
+      "Developed Cryptip DashBoard",
+      "Developed Kasbana web-app",
+      "worked on Exits web-app",
+    ],
   },
   {
     image: "images/lun.jpeg",
-    title: "Senior FrontEnd Developer",
-    from: "Sep 2022",
-    to: "Nov 2022",
+    title: "FrontEnd Developer",
+    from: "Aug 2021",
+    to: "Dec 2021",
     companyColor: "#159CA0",
     company: "lun-studio",
     powerPoints: [
@@ -116,8 +132,8 @@ let experience = [
   {
     image: "images/seen.jpeg",
     title: "FrontEnd Developer",
-    from: "Aug 2021",
-    to: "Sep 2022",
+    from: "Oct 2020",
+    to: "Aug 2021",
     companyColor: "#6579FA",
     company: "SEEN",
     powerPoints: [
@@ -130,8 +146,8 @@ let experience = [
   {
     image: "images/owlTech.gif",
     title: "FrontEnd Developer",
-    from: "Oct 2020",
-    to: "Aug 2021",
+    from: "Mar 2020",
+    to: "Oct 2020",
     company: "OwlTech",
     companyColor: "#FBC005",
     powerPoints: [
@@ -144,7 +160,7 @@ let experience = [
     image: "images/upWork.jpeg",
     title: "FrontEnd Developer",
     from: "Mar 2020",
-    to: "Oct 2020",
+    to: "Mar 2020",
     company: "Freelance",
     companyColor: "#15A800",
     powerPoints: [
