@@ -276,6 +276,16 @@ let cert = [
     link: "https://www.hackerrank.com/certificates/6103bafeffe1",
   },
   {
+    name: "Angular",
+    img: "images/angularInter.png",
+    link: "https://www.hackerrank.com/certificates/1b32676ad931",
+  },
+  {
+    name: "Angular",
+    img: "images/angular.png",
+    link: "https://www.hackerrank.com/certificates/d821bcf92140",
+  },
+  {
     name: "PROBLEM SOLVING",
     img: "images/problem-basic.png",
     link: "https://www.hackerrank.com/certificates/685bc23afa5e",
