@@ -56,13 +56,14 @@ if (dark_on) {
 
 // DISPLAY SKILLS
 let skills = [
-  { name: "HTML", icon: "vscode-icons:file-type-html" },
-  { name: "CSS", icon: "vscode-icons:file-type-css" },
   { name: "JAVASCRIPT", icon: "logos:javascript" },
   { name: "TYPESCRIPT", icon: "logos:typescript-icon" },
   { name: "REACT", icon: "logos:react" },
+  { name: "Next  ", icon: "cib:next-js" },
+  { name: "ANGULAR", icon: "logos:angular-icon" },
+  { name: "HTML", icon: "vscode-icons:file-type-html" },
+  { name: "CSS", icon: "vscode-icons:file-type-css" },
   { name: "Node", icon: "vscode-icons:file-type-node" },
-  { name: "REDUX & Next  ", icon: "cib:next-js" },
   { name: "MongoDb", icon: "simple-icons:mongodb" },
   { name: "Express", icon: "simple-icons:express" },
   { name: "SASS", icon: "logos:sass" },
