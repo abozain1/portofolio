@@ -229,22 +229,12 @@ let projects = [
     img: "images/TODO.png",
     link: "https://todo-alpha.netlify.app/",
   },
-  // {
-  //   name: "Campaign(TypeScript-UI)",
-  //   img: "images/Campaign.png",
-  //   link: "https://campaign-alpha.netlify.app/",
-  // },
+
   {
     name: "Store(React)",
     img: "images/Store.png",
     link: "https://speedstore.netlify.app/",
   },
-
-  // {
-  //   name: "Library(React)",
-  //   img: "images/Library.png",
-  //   link: "https://library-alpha.netlify.app/",
-  // },
 ];
 
 let projectsContentDOM = document.querySelector(".portfolio-content");
@@ -275,6 +265,11 @@ let cert = [
     name: "REACT",
     img: "images/HackerRank.png",
     link: "https://www.hackerrank.com/certificates/6103bafeffe1",
+  },
+  {
+    name: "PROBLEM SOLVING",
+    img: "images/P-S-I.png",
+    link: "https://www.hackerrank.com/certificates/e30a2b3c60bd",
   },
   {
     name: "Angular",
