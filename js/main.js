@@ -93,10 +93,22 @@ displaySkills();
 // display experience
 let experience = [
   {
+    image: "images/noon.jpeg",
+    title: "Senior Frontend Developer",
+    from: "Nov 2023",
+    to: "",
+    companyColor: "#FFC107",
+    company: "noon",
+    powerPoints: [
+      "Developing noon internal app Cheesecake",
+      "Developing noon Minutes",
+    ],
+  },
+  {
     image: "images/Reach.jpeg",
-    title: "FrontEnd Developer",
-    from: "Dec 2021",
-    to: "Nov 2022",
+    title: "Senior Frontend Developer",
+    from: "Nov 2022",
+    to: "Nov 2023",
     companyColor: "#0071BD",
     company: "Reach Link",
     powerPoints: [
@@ -106,7 +118,7 @@ let experience = [
   },
   {
     image: "images/anspire.jpeg",
-    title: "FrontEnd Developer",
+    title: "Senior Frontend Developer",
     from: "Dec 2021",
     to: "Nov 2022",
     companyColor: "black",
