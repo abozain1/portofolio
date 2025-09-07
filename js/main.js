@@ -93,15 +93,29 @@ displaySkills();
 // display experience
 let experience = [
   {
+    image: "images/uberall.jpeg",
+    title: "Senior Frontend Developer",
+    from: "Nov 2024",
+    to: "Present",
+    companyColor: "#7922f6",
+    company: "Uberall",
+    powerPoints: [
+      "maintained multiple customer-facing products (MomentFeed Locator, Self-Service Locator, Social Post Widget) across independent React and Angular codebases",
+      "Delivered a major Accessibility Epic, implementing WCAG-compliant UI components across applications to improve inclusivity and compliance",
+      "optimized the Flexible Store Finder widget, enabling configurable store discovery and seamless enterprise integrations",
+    ],
+  },
+  {
     image: "images/noon.jpeg",
     title: "Senior Frontend Developer",
     from: "Nov 2023",
-    to: "",
+    to: "Nov 2024",
     companyColor: "#FFC107",
     company: "noon",
     powerPoints: [
       "Developing noon internal app Cheesecake",
       "Developing noon Minutes",
+      "Collaborated with cross-functional teams in multiple regions to deliver robust solutions",
     ],
   },
   {
