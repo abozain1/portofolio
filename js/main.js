@@ -349,6 +349,7 @@ const displaycert = () => {
   });
 
   certContentDOM.innerHTML = display.join("");
+
 };
 
 displaycert();
@@ -373,3 +374,43 @@ sr.reveal("#exp", { origin: "left" });
 // PORTFOLIO SCROLL REVEAL
 sr.reveal(".portfolio", {});
 sr.reveal(".cert", {});
+
+(function () {
+  // --- Test controls ---
+  const root = document.getElementById("microdata-root");
+  const injectBtn = document.getElementById("inject-now");
+  const clearBtn = document.getElementById("clear-microdata");
+
+  function injectMicrodata() {
+    // This block is proper Microdata for a Person, but injected via JS AFTER load.
+    // Some validators that don't fully render JS will miss it.
+    root.innerHTML = `
+      <div itemscope itemtype="https://schema.org/Person">
+        <meta itemprop="name" content="AHmed KHalid">
+        <meta itemprop="jobTitle" content="Front End Developer">
+        <link itemprop="url" href="https://abozain1.github.io">
+        <img itemprop="image" src="./images/Ahmed.jpg" alt="AHmed KHalid" />
+        <ul>
+          <li><a itemprop="sameAs" href="https://github.com/abozain1?tab=repositories" target="_blank">GitHub</a></li>
+          <li><a itemprop="sameAs" href="https://www.linkedin.com/in/ahmed-khalid-0a88b5220/" target="_blank">LinkedIn</a></li>
+        </ul>
+        <span itemprop="telephone">+201142149319</span>
+      </div>
+    `;
+  }
+
+  function clearMicrodata() {
+    root.innerHTML = "";
+  }
+
+  // Optional: read ?delay=ms from the URL to change injection timing
+  const params = new URLSearchParams(location.search);
+  const delay = Number(params.get("delay") || 3000); // default 3s
+
+  // Auto-inject after a delay to simulate "late" DOM changes
+  setTimeout(injectMicrodata, delay);
+
+  // Manual controls
+  if (injectBtn) injectBtn.addEventListener("click", injectMicrodata);
+  if (clearBtn) clearBtn.addEventListener("click", clearMicrodata);
+})();
