@@ -529,6 +529,7 @@ img {
 
 .section {
   padding-top: 5rem;
+  display: none;
   padding-bottom: 2rem;
 }
 
